@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    // Removed Deno-specific types to avoid missing type definitions
+    "lib": ["esnext", "dom"],
+    // Other options you might have:
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
